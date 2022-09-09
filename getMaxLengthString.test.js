@@ -11,7 +11,7 @@ test('output#2', () => {
 })
 
 test('output#3', () => {
-  expect(testFn(['hi'])).toStrictEqual(['hi'])
+  expect(testFn(['hello'])).toStrictEqual(['hello'])
 })
 
 test('output#4', () => {
